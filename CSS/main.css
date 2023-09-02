@@ -1,12 +1,13 @@
 body {
-    margin: 0; 
+    margin: 0;
 }
-header#header {
+
+header {
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: unset;
+    flex-direction: row-reverse;
 }
 
 img#logo {
@@ -22,11 +23,32 @@ a {
     color: black;
     font-weight: 500;
 }
-main{
-    background-color: orange;
+
+.main {
+    background-color: #b4c2dd;
     color: white;
 }
 
-footer{
+.banner {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29vw;
+    width: 100% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.banner-tittle{
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    width: 23%;
+}
+footer {
     background-color: pink;
 }
+
